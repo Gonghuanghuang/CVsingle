@@ -1,0 +1,198 @@
+.root {
+  display: grid;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-content: flex-start;
+  justify-items: center;
+  justify-content: flex-start;
+  align-items: center;
+  background: var(--token-as44I7WwR-rZ);
+  min-width: 0;
+  min-height: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+}
+.root > * {
+  grid-column: 4;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 2132px;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.text__o2Lw {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  font-size: 18px;
+  min-width: 0;
+}
+.uploadvideo3__kiiXe:global(.__wab_instance) {
+  position: relative;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.htmlVideo__sHPtt:global(.__wab_instance) {
+  width: 150px;
+  height: 96px;
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.uploadvideo3__xbpTi:global(.__wab_instance) {
+  position: relative;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.htmlVideo__zdqw:global(.__wab_instance) {
+  width: 150px;
+  height: 96px;
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.checksecurity__uvQCl:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  align-self: stretch;
+}
+.text__ypal8 {
+  font-size: 18px;
+}
+.uploadvideo3__sZsZn:global(.__wab_instance) {
+  position: relative;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.htmlVideo__tf5Gd:global(.__wab_instance) {
+  width: 150px;
+  height: 96px;
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.uploadvideo3__nwF8E:global(.__wab_instance) {
+  position: relative;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.htmlVideo__ytMGz:global(.__wab_instance) {
+  width: 150px;
+  height: 96px;
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.checksecurity__fx5MW:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  align-self: stretch;
+}
+.text___98Jyo {
+  font-size: 18px;
+}
+.uploadvideo3__kG0Y:global(.__wab_instance) {
+  position: relative;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.htmlVideo__ha0Wd:global(.__wab_instance) {
+  width: 150px;
+  height: 96px;
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.uploadvideo3__h7Q2:global(.__wab_instance) {
+  position: relative;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.htmlVideo__eaGdI:global(.__wab_instance) {
+  width: 150px;
+  height: 96px;
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.uploadvideo3__wnfKp:global(.__wab_instance) {
+  position: relative;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.htmlVideo__djbNu:global(.__wab_instance) {
+  width: 150px;
+  height: 96px;
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.uploadvideo3___1K9Uf:global(.__wab_instance) {
+  position: relative;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.htmlVideo__vRgAl:global(.__wab_instance) {
+  width: 150px;
+  height: 96px;
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.uploadvideo3__e0DTy:global(.__wab_instance) {
+  position: relative;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.htmlVideo__xrjz4:global(.__wab_instance) {
+  width: 150px;
+  height: 96px;
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.checksecurity__hFwFd:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  align-self: stretch;
+}
+.upload:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  align-self: stretch;
+  width: 333px;
+  flex-shrink: 0;
+}
