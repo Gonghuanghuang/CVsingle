@@ -123,7 +123,19 @@ export const PlasmicCvsingle__ArgProps = new Array<ArgPropType>(
 export type PlasmicCvsingle__OverridesType = {
   root?: Flex__<"div">;
   freeBox?: Flex__<"div">;
-  upload?: Flex__<typeof Upload>;
+  sitPosture?: Flex__<typeof Uploadvideo3>;
+  naturalStandup?: Flex__<typeof Uploadvideo3>;
+  naturalStandupStatus?: Flex__<typeof Checksecurity>;
+  tryStandup?: Flex__<typeof Uploadvideo3>;
+  standUpBalance?: Flex__<typeof Uploadvideo3>;
+  useWalker?: Flex__<typeof Checksecurity>;
+  naturalStand?: Flex__<typeof Uploadvideo3>;
+  closeEyesStandPush?: Flex__<typeof Uploadvideo3>;
+  closeEyesStandUpBalance?: Flex__<typeof Uploadvideo3>;
+  turn360Degrees?: Flex__<typeof Uploadvideo3>;
+  sitDown?: Flex__<typeof Uploadvideo3>;
+  isDanger?: Flex__<typeof Checksecurity>;
+  check?: Flex__<typeof Upload>;
 };
 
 export interface DefaultCvsingleProps {}
@@ -203,7 +215,9 @@ function PlasmicCvsingle__RenderFunc(props: {
               }
             </div>
             <Uploadvideo3
-              className={classNames("__wab_instance", sty.uploadvideo3__kiiXe)}
+              data-plasmic-name={"sitPosture"}
+              data-plasmic-override={overrides.sitPosture}
+              className={classNames("__wab_instance", sty.sitPosture)}
               slot={renderPlasmicSlot({
                 defaultContents: (
                   <Video
@@ -214,7 +228,7 @@ function PlasmicCvsingle__RenderFunc(props: {
                     controls={true}
                     playsInline={false}
                     src={
-                      "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+                      "https://hb-static-production-1257043728.cos.ap-nanjing.myqcloud.com/image/mpsource/patient/medicalminiprogram/assessmentMiniProgram/video/Sit_Posture.mp4"
                     }
                   />
                 ),
@@ -228,7 +242,9 @@ function PlasmicCvsingle__RenderFunc(props: {
               })}
             </Uploadvideo3>
             <Uploadvideo3
-              className={classNames("__wab_instance", sty.uploadvideo3__xbpTi)}
+              data-plasmic-name={"naturalStandup"}
+              data-plasmic-override={overrides.naturalStandup}
+              className={classNames("__wab_instance", sty.naturalStandup)}
               slot={renderPlasmicSlot({
                 defaultContents: (
                   <Video
@@ -238,7 +254,7 @@ function PlasmicCvsingle__RenderFunc(props: {
                     )}
                     controls={true}
                     src={
-                      "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+                      "https://hb-static-production-1257043728.cos.ap-nanjing.myqcloud.com/image/mpsource/patient/medicalminiprogram/assessmentMiniProgram/video/Natural_Standup.mp4"
                     }
                   />
                 ),
@@ -252,7 +268,9 @@ function PlasmicCvsingle__RenderFunc(props: {
               })}
             </Uploadvideo3>
             <Checksecurity
-              className={classNames("__wab_instance", sty.checksecurity__uvQCl)}
+              data-plasmic-name={"naturalStandupStatus"}
+              data-plasmic-override={overrides.naturalStandupStatus}
+              className={classNames("__wab_instance", sty.naturalStandupStatus)}
             >
               <div
                 className={classNames(
@@ -265,7 +283,9 @@ function PlasmicCvsingle__RenderFunc(props: {
               </div>
             </Checksecurity>
             <Uploadvideo3
-              className={classNames("__wab_instance", sty.uploadvideo3__sZsZn)}
+              data-plasmic-name={"tryStandup"}
+              data-plasmic-override={overrides.tryStandup}
+              className={classNames("__wab_instance", sty.tryStandup)}
               slot={renderPlasmicSlot({
                 defaultContents: (
                   <Video
@@ -275,7 +295,7 @@ function PlasmicCvsingle__RenderFunc(props: {
                     )}
                     controls={true}
                     src={
-                      "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+                      "https://hb-static-production-1257043728.cos.ap-nanjing.myqcloud.com/image/mpsource/patient/medicalminiprogram/assessmentMiniProgram/video/Try_Standup.mp4"
                     }
                   />
                 ),
@@ -289,7 +309,9 @@ function PlasmicCvsingle__RenderFunc(props: {
               })}
             </Uploadvideo3>
             <Uploadvideo3
-              className={classNames("__wab_instance", sty.uploadvideo3__nwF8E)}
+              data-plasmic-name={"standUpBalance"}
+              data-plasmic-override={overrides.standUpBalance}
+              className={classNames("__wab_instance", sty.standUpBalance)}
               slot={renderPlasmicSlot({
                 defaultContents: (
                   <Video
@@ -299,7 +321,7 @@ function PlasmicCvsingle__RenderFunc(props: {
                     )}
                     controls={true}
                     src={
-                      "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+                      "https://hb-static-production-1257043728.cos.ap-nanjing.myqcloud.com/image/mpsource/patient/medicalminiprogram/assessmentMiniProgram/video/Stand_Up_Balance.mp4"
                     }
                   />
                 ),
@@ -314,7 +336,9 @@ function PlasmicCvsingle__RenderFunc(props: {
               })}
             </Uploadvideo3>
             <Checksecurity
-              className={classNames("__wab_instance", sty.checksecurity__fx5MW)}
+              data-plasmic-name={"useWalker"}
+              data-plasmic-override={overrides.useWalker}
+              className={classNames("__wab_instance", sty.useWalker)}
             >
               <div
                 className={classNames(
@@ -327,7 +351,9 @@ function PlasmicCvsingle__RenderFunc(props: {
               </div>
             </Checksecurity>
             <Uploadvideo3
-              className={classNames("__wab_instance", sty.uploadvideo3__kG0Y)}
+              data-plasmic-name={"naturalStand"}
+              data-plasmic-override={overrides.naturalStand}
+              className={classNames("__wab_instance", sty.naturalStand)}
               slot={renderPlasmicSlot({
                 defaultContents: (
                   <Video
@@ -337,7 +363,7 @@ function PlasmicCvsingle__RenderFunc(props: {
                     )}
                     controls={true}
                     src={
-                      "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+                      "https://hb-static-production-1257043728.cos.ap-nanjing.myqcloud.com/image/mpsource/patient/medicalminiprogram/assessmentMiniProgram/video/Natural_Stand.mp4"
                     }
                   />
                 ),
@@ -351,7 +377,9 @@ function PlasmicCvsingle__RenderFunc(props: {
               })}
             </Uploadvideo3>
             <Uploadvideo3
-              className={classNames("__wab_instance", sty.uploadvideo3__h7Q2)}
+              data-plasmic-name={"closeEyesStandPush"}
+              data-plasmic-override={overrides.closeEyesStandPush}
+              className={classNames("__wab_instance", sty.closeEyesStandPush)}
               slot={renderPlasmicSlot({
                 defaultContents: (
                   <Video
@@ -361,7 +389,7 @@ function PlasmicCvsingle__RenderFunc(props: {
                     )}
                     controls={true}
                     src={
-                      "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+                      "https://hb-static-production-1257043728.cos.ap-nanjing.myqcloud.com/image/mpsource/patient/medicalminiprogram/assessmentMiniProgram/video/Close_Eyes_Stand_Push.mp4"
                     }
                   />
                 ),
@@ -375,7 +403,12 @@ function PlasmicCvsingle__RenderFunc(props: {
               })}
             </Uploadvideo3>
             <Uploadvideo3
-              className={classNames("__wab_instance", sty.uploadvideo3__wnfKp)}
+              data-plasmic-name={"closeEyesStandUpBalance"}
+              data-plasmic-override={overrides.closeEyesStandUpBalance}
+              className={classNames(
+                "__wab_instance",
+                sty.closeEyesStandUpBalance
+              )}
               slot={renderPlasmicSlot({
                 defaultContents: (
                   <Video
@@ -385,7 +418,7 @@ function PlasmicCvsingle__RenderFunc(props: {
                     )}
                     controls={true}
                     src={
-                      "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+                      "https://hb-static-production-1257043728.cos.ap-nanjing.myqcloud.com/image/mpsource/patient/medicalminiprogram/assessmentMiniProgram/video/Close_Eyes_Stand_Up_Balance.mp4"
                     }
                   />
                 ),
@@ -399,7 +432,9 @@ function PlasmicCvsingle__RenderFunc(props: {
               })}
             </Uploadvideo3>
             <Uploadvideo3
-              className={classNames("__wab_instance", sty.uploadvideo3___1K9Uf)}
+              data-plasmic-name={"turn360Degrees"}
+              data-plasmic-override={overrides.turn360Degrees}
+              className={classNames("__wab_instance", sty.turn360Degrees)}
               slot={renderPlasmicSlot({
                 defaultContents: (
                   <Video
@@ -409,7 +444,7 @@ function PlasmicCvsingle__RenderFunc(props: {
                     )}
                     controls={true}
                     src={
-                      "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+                      "https://hb-static-production-1257043728.cos.ap-nanjing.myqcloud.com/image/mpsource/patient/medicalminiprogram/assessmentMiniProgram/video/Turn_360_Degrees.mp4"
                     }
                   />
                 ),
@@ -423,7 +458,9 @@ function PlasmicCvsingle__RenderFunc(props: {
               })}
             </Uploadvideo3>
             <Uploadvideo3
-              className={classNames("__wab_instance", sty.uploadvideo3__e0DTy)}
+              data-plasmic-name={"sitDown"}
+              data-plasmic-override={overrides.sitDown}
+              className={classNames("__wab_instance", sty.sitDown)}
               slot={renderPlasmicSlot({
                 defaultContents: (
                   <Video
@@ -433,7 +470,7 @@ function PlasmicCvsingle__RenderFunc(props: {
                     )}
                     controls={true}
                     src={
-                      "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm"
+                      "https://hb-static-production-1257043728.cos.ap-nanjing.myqcloud.com/image/mpsource/patient/medicalminiprogram/assessmentMiniProgram/video/Sit_Posture.mp4"
                     }
                   />
                 ),
@@ -447,13 +484,15 @@ function PlasmicCvsingle__RenderFunc(props: {
               })}
             </Uploadvideo3>
             <Checksecurity
-              className={classNames("__wab_instance", sty.checksecurity__hFwFd)}
+              data-plasmic-name={"isDanger"}
+              data-plasmic-override={overrides.isDanger}
+              className={classNames("__wab_instance", sty.isDanger)}
             />
 
             <Upload
-              data-plasmic-name={"upload"}
-              data-plasmic-override={overrides.upload}
-              className={classNames("__wab_instance", sty.upload)}
+              data-plasmic-name={"check"}
+              data-plasmic-override={overrides.check}
+              className={classNames("__wab_instance", sty.check)}
             />
           </div>
         </div>
@@ -463,9 +502,52 @@ function PlasmicCvsingle__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "freeBox", "upload"],
-  freeBox: ["freeBox", "upload"],
-  upload: ["upload"]
+  root: [
+    "root",
+    "freeBox",
+    "sitPosture",
+    "naturalStandup",
+    "naturalStandupStatus",
+    "tryStandup",
+    "standUpBalance",
+    "useWalker",
+    "naturalStand",
+    "closeEyesStandPush",
+    "closeEyesStandUpBalance",
+    "turn360Degrees",
+    "sitDown",
+    "isDanger",
+    "check"
+  ],
+  freeBox: [
+    "freeBox",
+    "sitPosture",
+    "naturalStandup",
+    "naturalStandupStatus",
+    "tryStandup",
+    "standUpBalance",
+    "useWalker",
+    "naturalStand",
+    "closeEyesStandPush",
+    "closeEyesStandUpBalance",
+    "turn360Degrees",
+    "sitDown",
+    "isDanger",
+    "check"
+  ],
+  sitPosture: ["sitPosture"],
+  naturalStandup: ["naturalStandup"],
+  naturalStandupStatus: ["naturalStandupStatus"],
+  tryStandup: ["tryStandup"],
+  standUpBalance: ["standUpBalance"],
+  useWalker: ["useWalker"],
+  naturalStand: ["naturalStand"],
+  closeEyesStandPush: ["closeEyesStandPush"],
+  closeEyesStandUpBalance: ["closeEyesStandUpBalance"],
+  turn360Degrees: ["turn360Degrees"],
+  sitDown: ["sitDown"],
+  isDanger: ["isDanger"],
+  check: ["check"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -473,7 +555,19 @@ type DescendantsType<T extends NodeNameType> =
 type NodeDefaultElementType = {
   root: "div";
   freeBox: "div";
-  upload: typeof Upload;
+  sitPosture: typeof Uploadvideo3;
+  naturalStandup: typeof Uploadvideo3;
+  naturalStandupStatus: typeof Checksecurity;
+  tryStandup: typeof Uploadvideo3;
+  standUpBalance: typeof Uploadvideo3;
+  useWalker: typeof Checksecurity;
+  naturalStand: typeof Uploadvideo3;
+  closeEyesStandPush: typeof Uploadvideo3;
+  closeEyesStandUpBalance: typeof Uploadvideo3;
+  turn360Degrees: typeof Uploadvideo3;
+  sitDown: typeof Uploadvideo3;
+  isDanger: typeof Checksecurity;
+  check: typeof Upload;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -537,7 +631,19 @@ export const PlasmicCvsingle = Object.assign(
   {
     // Helper components rendering sub-elements
     freeBox: makeNodeComponent("freeBox"),
-    upload: makeNodeComponent("upload"),
+    sitPosture: makeNodeComponent("sitPosture"),
+    naturalStandup: makeNodeComponent("naturalStandup"),
+    naturalStandupStatus: makeNodeComponent("naturalStandupStatus"),
+    tryStandup: makeNodeComponent("tryStandup"),
+    standUpBalance: makeNodeComponent("standUpBalance"),
+    useWalker: makeNodeComponent("useWalker"),
+    naturalStand: makeNodeComponent("naturalStand"),
+    closeEyesStandPush: makeNodeComponent("closeEyesStandPush"),
+    closeEyesStandUpBalance: makeNodeComponent("closeEyesStandUpBalance"),
+    turn360Degrees: makeNodeComponent("turn360Degrees"),
+    sitDown: makeNodeComponent("sitDown"),
+    isDanger: makeNodeComponent("isDanger"),
+    check: makeNodeComponent("check"),
 
     // Metadata about props expected for PlasmicCvsingle
     internalVariantProps: PlasmicCvsingle__VariantProps,

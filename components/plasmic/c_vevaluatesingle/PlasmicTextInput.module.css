@@ -9,7 +9,7 @@
   position: sticky;
   box-shadow: none;
   min-width: 0;
-  border-radius: 50px;
+  border-radius: 10px;
   padding: 7px 11px;
   border: 1px solid var(--token-Pxe4wDL2kJpb);
 }
@@ -63,7 +63,7 @@
   left: auto;
   top: auto;
   background: #ffffff00;
-  font-size: 12px;
+  font-size: 20px;
   min-width: 0;
   padding: 0px;
   border: 0px solid var(--token-RvPI6LyeIPmd);

@@ -1,9 +1,10 @@
 .root {
   display: block;
   width: 344px;
-  height: 185px;
+  height: 230px;
   max-width: 100%;
   position: relative;
+  margin-bottom: 2px;
   padding: 8px;
 }
 .freeBox__rQdK5 {

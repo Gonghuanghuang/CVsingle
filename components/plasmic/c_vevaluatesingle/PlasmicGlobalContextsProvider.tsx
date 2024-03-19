@@ -11,7 +11,7 @@ import { StrapiCredentialsProvider } from "@plasmicpkgs/plasmic-strapi";
 import { SanityCredentialsProvider } from "@plasmicpkgs/plasmic-sanity-io";
 import { CmsCredentialsProvider } from "@plasmicpkgs/plasmic-cms";
 import { CommerceProviderComponent } from "@plasmicpkgs/commerce-shopify";
-import { GlobalContext } from "@/src/components/GlobalContext"; // plasmic-import: SS8UPSYJyx4f/codeComponent
+import { GlobalContext } from "@/src/components/GlobalContext"; // plasmic-import: -0pK49CueiCS/codeComponent
 
 export interface GlobalContextsProviderProps {
   children?: React.ReactElement;
